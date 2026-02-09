@@ -1,104 +1,40 @@
-<Solution name="design-patterns-using-CSharp-and-Python" guid="{6120BC8C-8577-494A-A610-71DDE20EA601}">
-  <Description>Design Patterns implemented in C# and Python</Description>
-  
-  <Configurations>
-    <Configuration name="Debug" platform="Any CPU" />
-    <Configuration name="Release" platform="Any CPU" />
-  </Configurations>
-  
+<Solution>
+
   <Folders>
-    <!-- Main CSharp folder -->
-    <Folder name="CSharp" guid="{B41BF331-FCCB-2ADF-CDB6-767964B34647}">
-      
-      <!-- Creational Patterns Folder -->
-      <Folder name="Creational" guid="{C3E279EE-80AA-35EE-6451-8321436AC980}">
-        <Project name="Singleton" 
-                 path="CSharp/Creational/Singleton/Singleton.csproj" 
-                 guid="{C184A843-87F2-3A54-6A09-BC598AC1B588}" />
-        <Project name="Factory-Method" 
-                 path="CSharp/Creational/Factory-Method/Factory-Method.csproj" 
-                 guid="{88A88FDB-5A6E-9850-B6E0-3578D971B97E}" />
-        <Project name="Abstract-Factory" 
-                 path="CSharp/Creational/Abstract-Factory/Abstract-Factory.csproj" 
-                 guid="{4566D9A8-EF55-0965-911E-4E8DD721B8C5}" />
-        <Project name="Builder" 
-                 path="CSharp/Creational/Builder/Builder.csproj" 
-                 guid="{5A0894B0-4BA1-FCDA-4A12-731F35768084}" />
-        <Project name="Prototype" 
-                 path="CSharp/Creational/Prototype/Prototype.csproj" 
-                 guid="{EB07F029-D382-6C16-5117-9CBFB857329C}" />
+    <Folder name="CSharp">
+      <Folder name="Creational">
+        <Project name="Singleton" path="CSharp/Creational/Singleton/Singleton.csproj"/>
+        <Project name="Factory-Method" path="CSharp/Creational/Factory-Method/Factory-Method.csproj"/>
+        <Project name="Abstract-Factory" path="CSharp/Creational/Abstract-Factory/Abstract-Factory.csproj"/>
+        <Project name="Builder" path="CSharp/Creational/Builder/Builder.csproj"/>
+        <Project name="Prototype" path="CSharp/Creational/Prototype/Prototype.csproj"/>
       </Folder>
-      
-      <!-- Structural Patterns Folder -->
-      <Folder name="Structural" guid="{3ADEFCAB-5B93-6138-E52F-A510C53B310F}">
-        <Project name="Adapter" 
-                 path="CSharp/Structural/Adapter/Adapter.csproj" 
-                 guid="{BC1A4A02-984B-843D-6004-ABEFF65EBB15}" />
-        <Project name="Bridge" 
-                 path="CSharp/Structural/Bridge/Bridge.csproj" 
-                 guid="{AA4AF32D-E1BA-11E0-2BC3-24D524640094}" />
-        <Project name="Composite" 
-                 path="CSharp/Structural/Composite/Composite.csproj" 
-                 guid="{B5250A50-5CD1-01AA-FC2A-5E8EDEEE4C88}" />
-        <Project name="Decorator" 
-                 path="CSharp/Structural/Decorator/Decorator.csproj" 
-                 guid="{0F9DEE5D-FB1E-A212-AC96-7FA97BB0F921}" />
-        <Project name="Facade" 
-                 path="CSharp/Structural/Facade/Facade.csproj" 
-                 guid="{E2294474-F592-16E8-BB0F-20CAC1693658}" />
-        <Project name="Flyweight" 
-                 path="CSharp/Structural/Flyweight/Flyweight.csproj" 
-                 guid="{22080237-C9DC-FD4E-3A5B-7E9EB5B65726}" />
-        <Project name="Proxy" 
-                 path="CSharp/Structural/Proxy/Proxy.csproj" 
-                 guid="{E1859974-C131-9416-CC72-B60B8611D6BA}" />
+
+      <Folder name="Structural">
+        <Project name="Adapter" path="CSharp/Structural/Adapter/Adapter.csproj"/>
+        <Project name="Bridge" path="CSharp/Structural/Bridge/Bridge.csproj"/>
+        <Project name="Composite" path="CSharp/Structural/Composite/Composite.csproj"/>
+        <Project name="Decorator" path="CSharp/Structural/Decorator/Decorator.csproj"/>
+        <Project name="Facade" path="CSharp/Structural/Facade/Facade.csproj"/>
+        <Project name="Flyweight" path="CSharp/Structural/Flyweight/Flyweight.csproj"/>
+        <Project name="Proxy" path="CSharp/Structural/Proxy/Proxy.csproj"/>
       </Folder>
-      
-      <!-- Behavioral Patterns Folder -->
-      <Folder name="Behavioral" guid="{8CEAD58D-1728-4EC7-46DE-E4775B38745C}">
-        <Project name="Chain-of-Responsibility" 
-                 path="CSharp/Behavioral/Chain-of-Responsibility/Chain-of-Responsibility.csproj" 
-                 guid="{29BD2A8D-0C46-48F0-3143-B56CF9C3C54F}" />
-        <Project name="Command" 
-                 path="CSharp/Behavioral/Command/Command.csproj" 
-                 guid="{15A43C19-900A-D47D-0F5B-E507B593EA5C}" />
-        <Project name="Interpreter" 
-                 path="CSharp/Behavioral/Interpreter/Interpreter.csproj" 
-                 guid="{95C074C4-EE43-1B21-36DF-1BAACDEA1B91}" />
-        <Project name="Iterator" 
-                 path="CSharp/Behavioral/Iterator/Iterator.csproj" 
-                 guid="{BDED0CAE-7630-F5A5-B8ED-8587BDB62347}" />
-        <Project name="Mediator" 
-                 path="CSharp/Behavioral/Mediator/Mediator.csproj" 
-                 guid="{A1D16A5E-81C5-A583-5A19-DDAB7367D728}" />
-        <Project name="Memento" 
-                 path="CSharp/Behavioral/Memento/Memento.csproj" 
-                 guid="{F22A7D87-4121-0314-DBE8-E22A1679A765}" />
-        <Project name="Observer" 
-                 path="CSharp/Behavioral/Observer/Observer.csproj" 
-                 guid="{CA84F335-0191-4660-E7A1-9AC315D9CEF9}" />
-        <Project name="State" 
-                 path="CSharp/Behavioral/State/State.csproj" 
-                 guid="{F6E822E3-A5A9-9362-BB17-E3835B9C3EA7}" />
-        <Project name="Strategy" 
-                 path="CSharp/Behavioral/Strategy/Strategy.csproj" 
-                 guid="{64850C62-0B88-5B8F-5453-C697F6A6676A}" />
-        <Project name="Template-Method" 
-                 path="CSharp/Behavioral/Template-Method/Template-Method.csproj" 
-                 guid="{FC49E4DD-58DA-1C1A-D906-D78EA62A46CE}" />
-        <Project name="Visitor" 
-                 path="CSharp/Behavioral/Visitor/Visitor.csproj" 
-                 guid="{5E238079-F848-BB43-CE50-A53C12B2729B}" />
+
+      <Folder name="Behavioral">
+        <Project name="Chain-of-Responsibility" path="CSharp/Behavioral/Chain-of-Responsibility/Chain-of-Responsibility.csproj"/>
+        <Project name="Command" path="CSharp/Behavioral/Command/Command.csproj"/>
+        <Project name="Interpreter" path="CSharp/Behavioral/Interpreter/Interpreter.csproj"/>
+        <Project name="Iterator" path="CSharp/Behavioral/Iterator/Iterator.csproj"/>
+        <Project name="Mediator" path="CSharp/Behavioral/Mediator/Mediator.csproj"/>
+        <Project name="Memento" path="CSharp/Behavioral/Memento/Memento.csproj"/>
+        <Project name="Observer" path="CSharp/Behavioral/Observer/Observer.csproj"/>
+        <Project name="State" path="CSharp/Behavioral/State/State.csproj"/>
+        <Project name="Strategy" path="CSharp/Behavioral/Strategy/Strategy.csproj"/>
+        <Project name="Template-Method" path="CSharp/Behavioral/Template-Method/Template-Method.csproj"/>
+        <Project name="Visitor" path="CSharp/Behavioral/Visitor/Visitor.csproj"/>
       </Folder>
-      
     </Folder>
+    
   </Folders>
-  
-  <ProjectConfigurations>
-    <!-- Each project has Debug and Release configurations for Any CPU platform -->
-    <ProjectConfiguration projectGuid="{C184A843-87F2-3A54-6A09-BC598AC1B588}" config="Debug" platform="Any CPU" />
-    <ProjectConfiguration projectGuid="{C184A843-87F2-3A54-6A09-BC598AC1B588}" config="Release" platform="Any CPU" />
-    <!-- ... (similar configurations for all 23 projects) ... -->
-  </ProjectConfigurations>
-  
+
 </Solution>
