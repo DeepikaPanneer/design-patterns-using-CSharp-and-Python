@@ -1,40 +1,32 @@
 <Solution>
-
-  <Folders>
-    <Folder name="CSharp">
-      <Folder name="Creational">
-        <Project name="Singleton" path="CSharp/Creational/Singleton/Singleton.csproj"/>
-        <Project name="Factory-Method" path="CSharp/Creational/Factory-Method/Factory-Method.csproj"/>
-        <Project name="Abstract-Factory" path="CSharp/Creational/Abstract-Factory/Abstract-Factory.csproj"/>
-        <Project name="Builder" path="CSharp/Creational/Builder/Builder.csproj"/>
-        <Project name="Prototype" path="CSharp/Creational/Prototype/Prototype.csproj"/>
-      </Folder>
-
-      <Folder name="Structural">
-        <Project name="Adapter" path="CSharp/Structural/Adapter/Adapter.csproj"/>
-        <Project name="Bridge" path="CSharp/Structural/Bridge/Bridge.csproj"/>
-        <Project name="Composite" path="CSharp/Structural/Composite/Composite.csproj"/>
-        <Project name="Decorator" path="CSharp/Structural/Decorator/Decorator.csproj"/>
-        <Project name="Facade" path="CSharp/Structural/Facade/Facade.csproj"/>
-        <Project name="Flyweight" path="CSharp/Structural/Flyweight/Flyweight.csproj"/>
-        <Project name="Proxy" path="CSharp/Structural/Proxy/Proxy.csproj"/>
-      </Folder>
-
-      <Folder name="Behavioral">
-        <Project name="Chain-of-Responsibility" path="CSharp/Behavioral/Chain-of-Responsibility/Chain-of-Responsibility.csproj"/>
-        <Project name="Command" path="CSharp/Behavioral/Command/Command.csproj"/>
-        <Project name="Interpreter" path="CSharp/Behavioral/Interpreter/Interpreter.csproj"/>
-        <Project name="Iterator" path="CSharp/Behavioral/Iterator/Iterator.csproj"/>
-        <Project name="Mediator" path="CSharp/Behavioral/Mediator/Mediator.csproj"/>
-        <Project name="Memento" path="CSharp/Behavioral/Memento/Memento.csproj"/>
-        <Project name="Observer" path="CSharp/Behavioral/Observer/Observer.csproj"/>
-        <Project name="State" path="CSharp/Behavioral/State/State.csproj"/>
-        <Project name="Strategy" path="CSharp/Behavioral/Strategy/Strategy.csproj"/>
-        <Project name="Template-Method" path="CSharp/Behavioral/Template-Method/Template-Method.csproj"/>
-        <Project name="Visitor" path="CSharp/Behavioral/Visitor/Visitor.csproj"/>
-      </Folder>
-    </Folder>
-    
-  </Folders>
-
+  <Folder Name="/CSharp/" />
+  <Folder Name="/CSharp/Behavioral/">
+    <Project Path="CSharp/Behavioral/Chain-of-Responsibility/Chain-of-Responsibility.csproj" />
+    <Project Path="CSharp/Behavioral/Command/Command.csproj" />
+    <Project Path="CSharp/Behavioral/Interpreter/Interpreter.csproj" />
+    <Project Path="CSharp/Behavioral/Iterator/Iterator.csproj" />
+    <Project Path="CSharp/Behavioral/Mediator/Mediator.csproj" />
+    <Project Path="CSharp/Behavioral/Memento/Memento.csproj" />
+    <Project Path="CSharp/Behavioral/Observer/Observer.csproj" />
+    <Project Path="CSharp/Behavioral/State/State.csproj" />
+    <Project Path="CSharp/Behavioral/Strategy/Strategy.csproj" />
+    <Project Path="CSharp/Behavioral/Template-Method/Template-Method.csproj" />
+    <Project Path="CSharp/Behavioral/Visitor/Visitor.csproj" />
+  </Folder>
+  <Folder Name="/CSharp/Creational/">
+    <Project Path="CSharp/Creational/Abstract-Factory/Abstract-Factory.csproj" />
+    <Project Path="CSharp/Creational/Builder/Builder.csproj" />
+    <Project Path="CSharp/Creational/Factory-Method/Factory-Method.csproj" />
+    <Project Path="CSharp/Creational/Prototype/Prototype.csproj" />
+    <Project Path="CSharp/Creational/Singleton/Singleton.csproj" />
+  </Folder>
+  <Folder Name="/CSharp/Structural/">
+    <Project Path="CSharp/Structural/Adapter/Adapter.csproj" />
+    <Project Path="CSharp/Structural/Bridge/Bridge.csproj" />
+    <Project Path="CSharp/Structural/Composite/Composite.csproj" />
+    <Project Path="CSharp/Structural/Decorator/Decorator.csproj" />
+    <Project Path="CSharp/Structural/Facade/Facade.csproj" />
+    <Project Path="CSharp/Structural/Flyweight/Flyweight.csproj" />
+    <Project Path="CSharp/Structural/Proxy/Proxy.csproj" />
+  </Folder>
 </Solution>
